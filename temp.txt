@@ -1,0 +1,57 @@
+/*.heroImage{
+	height: 100vh;
+	background-color: lightblue;
+}
+.logo h1{
+	font-size: 2.5em;
+}
+.menu{
+	list-style: none;
+	padding: 0;
+}
+.menu li{
+	float: left;
+	text-transform: uppercase;
+	/*padding-right: 20px;*/
+}
+.menu li a{
+	text-decoration: none;
+	/*padding: 20px 20px 20px 10px;*/
+	padding: 100% 20px;
+}
+
+.menu li a:hover{
+	background-color: orange;
+}
+.noright{
+	float: none;
+}
+nav{
+	padding-top: 0;
+}
+.nav-back{
+	background-color: rgba(0, 0, 0, 0.81);
+	transition: .5s;
+	/*height: 60px;*/
+	box-shadow: 0px 2px 9px 0px #575757;
+}
+.nav-back .logo h1,.nav-back .menu li a{
+	color: white;
+	transition: .3s;
+}
+
+.content{
+	padding-top: 40px;
+}*/
+
+nav bar
+with background image
+then another section which describing who are we
+our services
+blog
+contact us
+footer
+
+
+#0ca7d3 -- blue
+#F7CA18 -- yellow

@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Passion+One');
+
+body{
+	background-image: url('../images/worn_dots.png');
+	background-attachment: fixed;
+}
+nav{
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	box-sizing: border-box;
+}
+
+.menu{
+	list-style: none;
+}
+.menu li{
+	float: left;
+}
+.menu li a{
+	padding: 22px 15px;
+	color: white;
+	box-sizing: border-box;
+}
+.menu li a:hover{
+	text-decoration: none;
+	transition: .2s;
+}
+.logo h1{
+	margin-bottom: 0;
+	padding: 10px 0;
+}
+.menu li a:hover{
+	background-color: yellow;
+	color: black;
+	box-shadow: inset 0 0 16px 1px #bebe05;
+}
+.nav-back{
+	background-color: rgba(0, 0, 0, 0.81);
+	transition: .5s;
+	box-shadow: 0px 2px 9px 0px #575757;
+}
+
+.nav-back .logo h1{
+	color: white;
+}
+.heroImage{
+	background-image: url('../images/hero_final.jpg');
+	height: 100vh;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #0ca7d3;
+}
+.nav-back .current_page_item a{
+	background-color: yellow;
+	color: black;
+	box-shadow: inset 0 0 16px 1px #bebe05;
+}
+.fa-phone{
+	color: #12fb12;
+}
+.logo1 img{
+	height: 64px;
+    padding-top: 5px;
+}
+.lgtext,.caption{
+	margin-bottom: 0;
+}
+.lgtext{
+	font-weight: bolder;
+	padding-top: 4px;
+	color: white;
+}
+.caption{
+	margin-top: -5px;
+	font-weight: bold;
+	padding-bottom: 4px;
+	color: white;
+}
+.nav-back .lgtext{
+	color: white;
+}
+.nav-back .caption{
+	color: #e9e9e9;
+}
+.hero-text h1{
+	font-size: 8vw;
+	font-weight: bolder;
+}
+
+.hero-text{
+	/*height: inherit;*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+.hero-text h1,.hero-text p{
+	text-align: center;
+}
+.hero-text h1{
+	background-color: rgba(255, 255, 0, 0.83);
+}
+.hero-text p{
+	font-size: 3vw;
+	font-weight: bold;
+	margin: 0;
+}
+p.caption1{
+	font-size: 1vw;
+}
+.who{
+	background-color: #efefef;
+	padding: 25px;
+	font-style: 3rem;
+}
+h1{
+	font-size: 3em;
+	font-weight: bold;
+}
+.who p{
+	font-size: 2em;
+	font-weight: 300;
+	line-height: 1.4em;
+}
+.quote{
+	font-size: 2rem;
+	font-family: 'Passion One', cursive;
+}
+.services{
+	margin: 0 auto;
+}
+.services h1{
+
+	padding:25px 0 ;
+}
+.card:hover{
+	box-shadow: 0 0 13px 2px #d5d5d5;
+	transition: .5s;
+}
+.form-control{
+	border-radius: 0px;
+
+}
+.pad{
+	padding: 0 8%;
+	/*padding-top: 25px;*/
+}
+.pad1{
+	padding: 0 0 30px 0;
+}
+.btn{
+	border-radius: 0 !important;
+}
+.bpad{
+	padding: 10px 50px;
+}
+.all-btn{
+	margin-bottom: 30px;
+}
+.contactus{
+	background-color: lightblue;
+}
+.contactus h1{
+	padding:25px 0;
+}
+.orcontact h1{
+	padding-top: 0px !important;
+}
+.orcontact p{
+	font-size: 1.3em;
+}
+textarea{
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	color: #495057;
+	border: 1px solid #ced4da;
+}
+.red{
+	color: #f14336;
+}
+.black{
+	color: #000;
+}
+/*responsive*/
+
+@media screen and (max-width: 1200px){
+	.pad{
+		padding: 0;
+	}
+}
+@media screen and (max-width: 990px){
+	.pad{
+		padding: 0 6%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.pad{
+		padding: 0;
+	}
+	.pad1{
+		padding: 10px;
+	}
+	.all-btn{
+		padding-top: 10px;
+	}
+}
